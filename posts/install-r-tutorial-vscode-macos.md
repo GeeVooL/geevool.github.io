@@ -35,6 +35,8 @@ Homebrew is an unofficial package manager for macOS (similar to `apt` for Debian
    - `IRkernel::installspec()`
 4. Install Tidyverse:
    - `install.packages("tidyverse")`
+5. Quit **R Console**:
+   - `q()`
 
 ## 4. Install Visual Studio Code
 
@@ -44,8 +46,8 @@ Homebrew is an unofficial package manager for macOS (similar to `apt` for Debian
    `/Applications`. You can use the following terminal command (paste and
    execute after downloading the file):  
    `mv ~/Downloads/"Visual Studio Code.app" /Applications/`
-3. Open Visual Studio Code (either from Launchpad or `⌘CMD + SPACE` and type its
-   name).
+3. Open Visual Studio Code (either from Launchpad or use `⌘CMD + SPACE` and
+   type its name).
 
 ## 5. Install required extensions
 
@@ -62,3 +64,12 @@ Homebrew is an unofficial package manager for macOS (similar to `apt` for Debian
    "Python 3.8.8 64-bit ...". In your case it may say "Select kernel..." or show
    some other Python version.
    ![image](https://raw.githubusercontent.com/microsoft/vscode-jupyter/main/images/Jupyter%20README/notebookui.png?)
+
+## 6. Helpful content
+
+The list contains some websites with documentation or more detailed installation
+steps:
+
+- [Description of VS Code's R extension](https://code.visualstudio.com/docs/languages/r)
+- [Official IRkernel installation tutorial](https://irkernel.github.io/installation/)
+- [Official documentation of Jupyter Notebooks in VS Code](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
